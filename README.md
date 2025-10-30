@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 2D-platformer-Game-Unity
 2D Tilemap Platformer Unity
 Create your own 2D platformer game with ease using this Unity project template. This repository provides a foundation for building classic side-scrolling platformers with Unity's powerful 2D features.
@@ -35,3 +36,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
+=======
+# Test-game
+>>>>>>> 613f93cef00613b8d1562ac802194ba111369d4e
