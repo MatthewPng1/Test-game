@@ -20,10 +20,6 @@ public class SimplePickup : MonoBehaviour
                 {
                     SimpleGameManager.instance.IncrementCoinCount();
                 }
-            if (CoinManager.Instance != null)
-            {
-                CoinManager.Instance.AddCoins(value);
-            }                
                 if (PickupEffect != null)
                     Instantiate(PickupEffect, transform.position, Quaternion.identity);
 

@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SimpleGameManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class SimpleGameManager : MonoBehaviour
 
     private int coinCount = 0;
     private int totalCoins = 0;
+    private int savedCoinCount = 0;
 
     private void Awake()
     {
@@ -24,13 +26,26 @@ public class SimpleGameManager : MonoBehaviour
     private void Start()
     {
         SimpleUIManager.instance.fadeFromBlack = true;
+        savedCoinCount = 0; // Reset saved count at level start
         UpdateGUI();
         FindTotalCoins();
     }
+    
+  //  private bool isRestarting = false;
+    
+//    public void RestartLevel()
+  //  {
+ //       isRestarting = true;
+   //     StartCoroutine(RestartLevelCoroutine());
+  //  }
 
     public void IncrementCoinCount()
     {
         coinCount++;
+        if (CoinManager.Instance != null)
+        {
+            CoinManager.Instance.AddCoins(1);
+        }
         UpdateGUI();
     }
 
@@ -61,5 +76,24 @@ public class SimpleGameManager : MonoBehaviour
         endGamePanel.SetActive(true);
         endGameTitle.text = "LEVEL COMPLETE";
         levelCompleteCoins.text = "COINS COLLECTED: " + coinCount.ToString() + " / " + totalCoins.ToString();
+    }
+
+    public void RestartLevel()
+    {
+        StartCoroutine(RestartLevelCoroutine());
+    }
+
+    private IEnumerator RestartLevelCoroutine()
+    {
+        blackScreen.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        
+        // Reset CoinManager to 0 before reloading scene
+        if (CoinManager.Instance != null)
+        {
+            CoinManager.Instance.ResetCoins();
+        }
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

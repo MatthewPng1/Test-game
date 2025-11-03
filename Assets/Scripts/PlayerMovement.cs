@@ -136,9 +136,17 @@ public class PlayerMovement : MonoBehaviour
         playerCollider.enabled = true;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
+        {
+            isOnPlatform = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Platform"))
         {
             isOnPlatform = true;
         }
@@ -147,12 +155,10 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
-    }
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Platform"))
+        
+        if(collision.gameObject.CompareTag("killzone"))
         {
-            isOnPlatform = false;
+            SimpleGameManager.instance.RestartLevel();
         }
     }
 }

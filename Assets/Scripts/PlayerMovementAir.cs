@@ -173,7 +173,13 @@ public class PlayerMovementAir : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
+        
+        if(collision.gameObject.CompareTag("killzone"))
+        {
+            SimpleGameManager.instance.RestartLevel();
+        }
     }
+
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
