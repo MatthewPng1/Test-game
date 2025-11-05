@@ -80,6 +80,7 @@ public class MovingPlatform : MonoBehaviour
         }
     }
 
+    // Removed parenting logic to avoid errors when activating/deactivating platform or player
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if collision is from above (player landing on platform)
@@ -98,6 +99,7 @@ public class MovingPlatform : MonoBehaviour
             collision.transform.SetParent(null);
         }
     }
+    // ...existing code...
 
     // Optional: Visualize waypoints and path in editor
     void OnDrawGizmos()
