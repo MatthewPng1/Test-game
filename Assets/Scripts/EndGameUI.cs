@@ -23,7 +23,7 @@ public class EndGameUI : MonoBehaviour
 
         if (CoinManager.Instance == null)
         {
-            summaryText.text = "TOTAL: 0 / 0";
+            summaryText.text = "Total Coins: 0 / 0";
             return;
         }
 
