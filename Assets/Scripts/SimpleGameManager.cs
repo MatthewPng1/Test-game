@@ -93,7 +93,7 @@ public class SimpleGameManager : MonoBehaviour
     private IEnumerator RestartLevelCoroutine()
     {
         blackScreen.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         
         // Reset CoinManager to 0 before reloading scene
         if (CoinManager.Instance != null)

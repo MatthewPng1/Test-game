@@ -20,6 +20,9 @@ public class PlayerMovementAir : MonoBehaviour
     bool isOnPlatform;
     BoxCollider2D playerCollider;
 
+    [Header("Audio")]
+    public AudioSource deathSound;
+
     void Start()
     {
         playerCollider = GetComponent<BoxCollider2D>();
@@ -183,6 +186,10 @@ public class PlayerMovementAir : MonoBehaviour
         
         if(collision.gameObject.CompareTag("killzone"))
         {
+            if (deathSound != null)
+            {
+                deathSound.Play();
+            }
             SimpleGameManager.instance.RestartLevel();
         }
     }
