@@ -73,8 +73,31 @@ public class SimpleGameManager : MonoBehaviour
 
     public void LevelComplete()
     {
+        // Simple fix: deactivate the player GameObject so they cannot move or interact
+        // while the black screen / level-complete UI is showing.
+        DisablePlayerGameObject();
+
         blackScreen.SetActive(true);
         StartCoroutine(LevelCompleteCoroutine());
+    }
+    
+    private void DisablePlayerGameObject()
+    {
+        GameObject player = null;
+        try
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+        catch
+        {
+            // Tag might not exist or lookup failed — nothing we can do here.
+            return;
+        }
+
+        if (player == null) return;
+
+        // Deactivate the whole GameObject. Scene reload will restore it.
+        player.SetActive(false);
     }
    
     private IEnumerator LevelCompleteCoroutine()

@@ -7,6 +7,7 @@ TagManager:
   - killzone
   - Coin
   - Platform
+  - Stick
   layers:
   - Default
   - TransparentFX
