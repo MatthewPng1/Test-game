@@ -227,7 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Time to go home!
+  storyText: I can't wait to get home and lie in my bed.
   description: 
   character: {fileID: 1307964170}
   portrait: {fileID: 21300000, guid: 45f7be36f0f645f47879c5dae0334368, type: 3}
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: What a long day...
+  storyText: What a day...
   description: 
   character: {fileID: 1307964170}
   portrait: {fileID: 21300000, guid: 348127b06a448d646933fb166cf95191, type: 3}
@@ -343,8 +343,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 223296899}
+  selectedCommands:
+  - {fileID: 223296910}
   variables: []
   description: 
   stepPause: 0
@@ -413,8 +415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: In this story, you play as Alex. A young man currently serving National
-    Service.
+  storyText: "In this story, you will play as Alex, a soon-to-be university undergraduate.
+    Currently, he\u2019s serving his National Service.\r\n\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

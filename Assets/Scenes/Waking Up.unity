@@ -1750,12 +1750,20 @@ GameObject:
   - component: {fileID: 1377760094}
   - component: {fileID: 1377760100}
   - component: {fileID: 1377760104}
-  - component: {fileID: 1377760103}
   - component: {fileID: 1377760102}
   - component: {fileID: 1377760101}
   - component: {fileID: 1377760105}
   - component: {fileID: 1377760106}
   - component: {fileID: 1377760107}
+  - component: {fileID: 1377760113}
+  - component: {fileID: 1377760112}
+  - component: {fileID: 1377760111}
+  - component: {fileID: 1377760110}
+  - component: {fileID: 1377760109}
+  - component: {fileID: 1377760108}
+  - component: {fileID: 1377760116}
+  - component: {fileID: 1377760115}
+  - component: {fileID: 1377760114}
   m_Layer: 0
   m_Name: Flowchart (3)
   m_TagString: Untagged
@@ -2029,8 +2037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 851.15753
-    y: 259.0824
+    x: 1099.1162
+    y: 323.7882
     width: 201.84
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2048,8 +2056,14 @@ MonoBehaviour:
   - {fileID: 1377760037}
   - {fileID: 1377760038}
   - {fileID: 1377760102}
+  - {fileID: 1377760113}
+  - {fileID: 1377760112}
+  - {fileID: 1377760111}
+  - {fileID: 1377760110}
+  - {fileID: 1377760109}
   - {fileID: 1377760101}
   - {fileID: 1377760024}
+  - {fileID: 1377760108}
   - {fileID: 1377760025}
   - {fileID: 1377760034}
   suppressAllAutoSelections: 0
@@ -2265,9 +2279,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: He goes to the kitchen for breakfast.
+  storyText: Wait ah mom, let get ready for school before heading down for breakfast!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1814562191}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2351,7 +2365,7 @@ MonoBehaviour:
   itemId: 121
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1377760042}
+  targetBlock: {fileID: 1377760082}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -2541,7 +2555,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 647.74927
-    y: 258.53494
+    y: 261.4761
     width: 132.26999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2560,6 +2574,7 @@ MonoBehaviour:
   - {fileID: 1377760059}
   - {fileID: 1377760054}
   - {fileID: 1377760052}
+  - {fileID: 1377760115}
   - {fileID: 1377760058}
   - {fileID: 1377760051}
   - {fileID: 1377760056}
@@ -2579,8 +2594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 837.0313
-    y: 0.9308243
+    x: 1081.1484
+    y: -81.42201
     width: 198.7
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2599,7 +2614,6 @@ MonoBehaviour:
   - {fileID: 1377760044}
   - {fileID: 1377760026}
   - {fileID: 1377760104}
-  - {fileID: 1377760103}
   - {fileID: 1377760107}
   suppressAllAutoSelections: 0
 --- !u!114 &1377760064
@@ -2617,7 +2631,7 @@ MonoBehaviour:
   itemId: 109
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1377760063}
+  targetBlock: {fileID: 1377760082}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -2888,7 +2902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 639.03186
+    x: 636.0907
     y: -0.2026596
     width: 137.72
     height: 40
@@ -2908,6 +2922,7 @@ MonoBehaviour:
   - {fileID: 1377760068}
   - {fileID: 1377760070}
   - {fileID: 1377760066}
+  - {fileID: 1377760116}
   - {fileID: 1377760053}
   - {fileID: 1377760065}
   - {fileID: 1377760064}
@@ -3068,6 +3083,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1377760081}
   - {fileID: 1377760095}
+  - {fileID: 1377760114}
   - {fileID: 1377760094}
   - {fileID: 1377760100}
   suppressAllAutoSelections: 0
@@ -3320,11 +3336,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -239.04626, y: 169.1209}
+  scrollPos: {x: -769.6961, y: 558.9978}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 562
-  zoom: 0.7900002
+  blockViewHeight: 518
+  zoom: 0.34000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3373,8 +3389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: Collect all x items around his house before the time runs out. Cleaning
-    your rooms awards you some Karma.
+  storyText: Collect all x items around his house before the time runs out. Collect
+    your clothes to clean up your room and get some Karma.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3401,7 +3417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 164
   indentLevel: 0
-  storyText: 'Controls: Use the arrow keys to move.'
+  storyText: 'Controls: Use the Up and Down arrow keys to move.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3502,9 +3518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: Gotcha.
+  storyText: Haha Gotcha.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 656966121}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3529,7 +3545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: Yep. Remember to tidy up your room before you leave.
+  storyText: Yes, I got a pitch to my boss today. I'm running a bit late though.
+    How's school been for you?
   description: 
   character: {fileID: 656966121}
   portrait: {fileID: 0}
@@ -3542,25 +3559,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1377760103
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377760023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 168
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: level 2
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!114 &1377760104
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3575,8 +3573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: I have no time to clean my room, I just need to grab my phone and wallet,
-    then quickly grab a bite with Ryan before heading to school.
+  storyText: I should pack my stuff first.
   description: 
   character: {fileID: 1814562191}
   portrait: {fileID: 0}
@@ -3652,6 +3649,251 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1377760108
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 178
+  indentLevel: 0
+  storyText: I should pack my stuff first.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760109
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 177
+  indentLevel: 0
+  storyText: 'Very funny, but I can handle myself. Thanks bro.  '
+  description: 
+  character: {fileID: 1814562191}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760110
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 176
+  indentLevel: 0
+  storyText: 'Tell me their name and address. No one bullies my little brother. '
+  description: 
+  character: {fileID: 656966121}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760111
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  storyText: If they're not happy, then what?
+  description: 
+  character: {fileID: 1814562191}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760112
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 0
+  storyText: I see. Well, have they said anything? If it bothers you maybe should
+    ask them about it?
+  description: 
+  character: {fileID: 656966121}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760113
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 0
+  storyText: Eh.. school's been pretty tough. I have this group project and I feel
+    like one of them is uncomfortable working with a guy in a wheelchair.
+  description: 
+  character: {fileID: 1814562191}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760114
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 181
+  indentLevel: 0
+  storyText: 'Controls: Use the Left and Right arrow keys to Steer.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760115
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 180
+  indentLevel: 0
+  storyText: Okay, see you downstairs. Hurry up ah!
+  description: 
+  character: {fileID: 1612249162}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1377760116
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377760023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 179
+  indentLevel: 0
+  storyText: "Argh I only have 5 minutes to get ready for school\u2026"
+  description: 
+  character: {fileID: 1814562191}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1417621979
 GameObject:
   m_ObjectHideFlags: 0

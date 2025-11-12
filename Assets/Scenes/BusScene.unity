@@ -839,7 +839,6 @@ GameObject:
   - component: {fileID: 593378217}
   - component: {fileID: 593378216}
   - component: {fileID: 593378215}
-  - component: {fileID: 593378214}
   - component: {fileID: 593378213}
   - component: {fileID: 593378212}
   - component: {fileID: 593378211}
@@ -882,7 +881,6 @@ GameObject:
   - component: {fileID: 593378173}
   - component: {fileID: 593378172}
   - component: {fileID: 593378171}
-  - component: {fileID: 593378170}
   - component: {fileID: 593378169}
   - component: {fileID: 593378168}
   - component: {fileID: 593378167}
@@ -995,7 +993,6 @@ GameObject:
   - component: {fileID: 593378252}
   - component: {fileID: 593378251}
   - component: {fileID: 593378253}
-  - component: {fileID: 593378254}
   - component: {fileID: 593378255}
   - component: {fileID: 593378257}
   - component: {fileID: 593378256}
@@ -1004,6 +1001,11 @@ GameObject:
   - component: {fileID: 593378259}
   - component: {fileID: 593378262}
   - component: {fileID: 593378261}
+  - component: {fileID: 593378265}
+  - component: {fileID: 593378264}
+  - component: {fileID: 593378263}
+  - component: {fileID: 593378266}
+  - component: {fileID: 593378267}
   m_Layer: 0
   m_Name: Flowchart (5)
   m_TagString: Untagged
@@ -2718,7 +2720,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2097.0208
-    y: 173.47893
+    y: 171.43811
     width: 108.92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3207,36 +3209,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &593378170
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 221
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 666579161}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &593378171
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3566,7 +3538,6 @@ MonoBehaviour:
   - {fileID: 593378174}
   - {fileID: 593378176}
   - {fileID: 593378171}
-  - {fileID: 593378170}
   - {fileID: 593378179}
   suppressAllAutoSelections: 0
 --- !u!114 &593378183
@@ -3725,7 +3696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2320.6145
+    x: 2318.5737
     y: 71.194916
     width: 117.63
     height: 40
@@ -3738,12 +3709,13 @@ MonoBehaviour:
     finds it and boards the bus.
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 593378254}
+  - {fileID: 593378266}
   - {fileID: 593378110}
   - {fileID: 593378185}
   - {fileID: 593378184}
   - {fileID: 593378183}
   - {fileID: 593378102}
+  - {fileID: 593378267}
   - {fileID: 593378105}
   - {fileID: 593378104}
   - {fileID: 593378103}
@@ -4302,7 +4274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  storyText: Should he travel to the bus interchange or wait for the bus?
+  storyText: Alex checks the map...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4310,7 +4282,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -4420,36 +4392,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &593378214
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 160
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 666579161}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &593378215
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4504,8 +4446,10 @@ MonoBehaviour:
   - {fileID: 593378206}
   - {fileID: 593378213}
   - {fileID: 593378212}
-  - {fileID: 593378214}
   - {fileID: 593378209}
+  - {fileID: 593378265}
+  - {fileID: 593378264}
+  - {fileID: 593378263}
   - {fileID: 593378211}
   - {fileID: 593378210}
   suppressAllAutoSelections: 0
@@ -4522,19 +4466,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2353.327, y: 168.1653}
+  scrollPos: {x: -1901.1884, y: 454.64468}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 569
-  zoom: 0.64000034
+  zoom: 0.49000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 593378182}
+  selectedCommands:
+  - {fileID: 593378179}
   variables: []
   description: 
   stepPause: 0
@@ -5516,36 +5462,6 @@ MonoBehaviour:
   parentBlock: {fileID: 593378216}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
---- !u!114 &593378254
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 345
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 666579161}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: -6906693498126326902, guid: b34ed252b3dbe4e4aa56cb4fa2ee1ebb, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 785026665}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &593378255
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5691,7 +5607,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1993348883}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: -6906693498126326902, guid: b34ed252b3dbe4e4aa56cb4fa2ee1ebb, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5739,6 +5655,138 @@ MonoBehaviour:
   delta:
     floatRef: {fileID: 0}
     floatVal: -20
+--- !u!114 &593378263
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 356
+  indentLevel: 0
+  storyText: Should he travel to the bus interchange or wait for the bus?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &593378264
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 355
+  indentLevel: 0
+  storyText: "Oh! It's only 5 mins away if I cut through the blocks! Hmmm\u2026 "
+  description: 
+  character: {fileID: 666579161}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &593378265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 354
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &593378266
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 357
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 666579161}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: -6906693498126326902, guid: b34ed252b3dbe4e4aa56cb4fa2ee1ebb, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 785026665}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &593378267
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 358
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 666579161}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: -6906693498126326902, guid: b34ed252b3dbe4e4aa56cb4fa2ee1ebb, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &623460747
 GameObject:
   m_ObjectHideFlags: 0
