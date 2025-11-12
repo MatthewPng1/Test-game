@@ -10,6 +10,21 @@ public class ClickButton : MonoBehaviour
 
     private bool hasBeenClicked = false;
 
+    void Awake()
+    {
+        // Ignore the player collider during raycasts so clicking the button works even when the player is over it
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Collider2D playerCollider = player.GetComponent<Collider2D>();
+            Collider2D buttonCollider = GetComponent<Collider2D>();
+            if (playerCollider != null && buttonCollider != null)
+            {
+                Physics2D.IgnoreCollision(playerCollider, buttonCollider);
+            }
+        }
+    }
+
     void OnMouseDown()
     {
         if (hasBeenClicked) return;
