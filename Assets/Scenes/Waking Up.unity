@@ -1713,7 +1713,6 @@ GameObject:
   - component: {fileID: 1377760068}
   - component: {fileID: 1377760067}
   - component: {fileID: 1377760066}
-  - component: {fileID: 1377760065}
   - component: {fileID: 1377760064}
   - component: {fileID: 1377760063}
   - component: {fileID: 1377760062}
@@ -1722,7 +1721,6 @@ GameObject:
   - component: {fileID: 1377760059}
   - component: {fileID: 1377760058}
   - component: {fileID: 1377760057}
-  - component: {fileID: 1377760056}
   - component: {fileID: 1377760055}
   - component: {fileID: 1377760054}
   - component: {fileID: 1377760053}
@@ -2371,31 +2369,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1377760056
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377760023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 120
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 2108298960}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
-  fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &1377760057
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2554,8 +2527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 647.74927
-    y: 261.4761
+    x: 613.39874
+    y: 246.51166
     width: 132.26999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2577,7 +2550,6 @@ MonoBehaviour:
   - {fileID: 1377760115}
   - {fileID: 1377760058}
   - {fileID: 1377760051}
-  - {fileID: 1377760056}
   - {fileID: 1377760055}
   suppressAllAutoSelections: 0
 --- !u!114 &1377760063
@@ -2637,31 +2609,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1377760065
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377760023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 108
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 2108298960}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
-  fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &1377760066
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2820,7 +2767,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'ALEX, WHAT TIME ALREADY STILL HAVEN''T WAKE UP!?! {hpunch=30,1.5} '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1612249162}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2902,8 +2849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 636.0907
-    y: -0.2026596
+    x: 608.6934
+    y: 55.961746
     width: 137.72
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2924,7 +2871,6 @@ MonoBehaviour:
   - {fileID: 1377760066}
   - {fileID: 1377760116}
   - {fileID: 1377760053}
-  - {fileID: 1377760065}
   - {fileID: 1377760064}
   suppressAllAutoSelections: 0
 --- !u!114 &1377760075
@@ -3020,7 +2966,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Wah.. it's already 8:09am, I better get up.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1814562191}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3070,8 +3016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1085.7972
-    y: 126.09169
+    x: 818.674
+    y: 152.22318
     width: 214.95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3103,7 +3049,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I'm so tired, I don't want to get out of bed...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1814562191}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3217,7 +3163,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Alex!! Wake up!! {hpunch=20,1} '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1612249162}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3244,7 +3190,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You''re going to be late for school! {hpunch=20,1} '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1612249162}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3271,7 +3217,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*Yaaawn...*'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1814562191}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3296,8 +3242,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 410.95547
-    y: 128.03421
+    x: 413.6952
+    y: 151.32185
     width: 131.14
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3336,18 +3282,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -769.6961, y: 558.9978}
+  scrollPos: {x: -281.59396, y: 179.54973}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 518
-  zoom: 0.34000045
+  blockViewHeight: 432
+  zoom: 0.7299997
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1377760082}
   selectedCommands: []
   variables: []
   description: 
@@ -3389,8 +3336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: Collect all x items around his house before the time runs out. Collect
-    your clothes to clean up your room and get some Karma.
+  storyText: Collect all 10 essential items around his room before the time runs
+    out. Collecting items also increases your Karma.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3501,7 +3448,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: CollectTheClothes
+    stringVal: CollectGame
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1377760101

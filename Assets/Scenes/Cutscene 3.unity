@@ -477,7 +477,6 @@ GameObject:
   - component: {fileID: 223296966}
   - component: {fileID: 223296968}
   - component: {fileID: 223296967}
-  - component: {fileID: 223296972}
   - component: {fileID: 223296971}
   - component: {fileID: 223296970}
   - component: {fileID: 223296969}
@@ -489,9 +488,9 @@ GameObject:
   - component: {fileID: 223296979}
   - component: {fileID: 223296978}
   - component: {fileID: 223296983}
-  - component: {fileID: 223296982}
   - component: {fileID: 223296981}
   - component: {fileID: 223296980}
+  - component: {fileID: 223296984}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -532,15 +531,14 @@ MonoBehaviour:
   - {fileID: 223296965}
   - {fileID: 223296932}
   - {fileID: 223296931}
+  - {fileID: 223296984}
   - {fileID: 223296950}
   - {fileID: 223296978}
-  - {fileID: 223296972}
   - {fileID: 223296971}
   - {fileID: 223296970}
   - {fileID: 223296969}
   - {fileID: 223296981}
   - {fileID: 223296983}
-  - {fileID: 223296982}
   - {fileID: 223296976}
   - {fileID: 223296980}
   - {fileID: 223296975}
@@ -561,11 +559,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 168.93333, y: -14.553471}
+  scrollPos: {x: 173.70605, y: -4.406414}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 577
-  zoom: 0.8800001
+  blockViewHeight: 523
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -575,7 +573,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 223296899}
   selectedCommands:
-  - {fileID: 223296975}
+  - {fileID: 223296950}
   variables: []
   description: 
   stepPause: 0
@@ -665,7 +663,7 @@ MonoBehaviour:
     ask them about it?
   description: 
   character: {fileID: 949947083}
-  portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -693,7 +691,7 @@ MonoBehaviour:
     like one of them is uncomfortable working with a guy in a wheelchair.
   description: 
   character: {fileID: 809875677}
-  portrait: {fileID: 8583531119954864522, guid: f8e88a5f928844c4badd27d53db2607c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -720,7 +718,7 @@ MonoBehaviour:
   storyText: Yeah, you heading off to work?
   description: 
   character: {fileID: 809875677}
-  portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -942,7 +940,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Tell me their name and address. No one bullies my little brother. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 949947083}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1417,7 +1415,7 @@ MonoBehaviour:
   storyText: Boys ah, hurry up and eat. Later food cold already.
   description: 
   character: {fileID: 336985227}
-  portrait: {fileID: 0}
+  portrait: {fileID: 6940569892292361598, guid: 997f84f68da954708aba687030a4e3bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1427,39 +1425,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &223296972
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223296893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 78
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 336985227}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 6940569892292361598, guid: 997f84f68da954708aba687030a4e3bb, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1206914921}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &223296973
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1487,7 +1455,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &223296974
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1514,7 +1482,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &223296975
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1541,7 +1509,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &223296976
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1566,7 +1534,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &223296977
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1591,7 +1559,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &223296978
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1618,7 +1586,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &223296979
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1637,7 +1605,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &223296980
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1667,7 +1635,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &223296981
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1695,39 +1663,9 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &223296982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223296893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 90
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 336985227}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &223296983
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1741,7 +1679,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 1108595151}
+  character: {fileID: 949947083}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -1755,6 +1693,33 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &223296984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223296893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  indentLevel: 0
+  storyText: If they're not happy, then what?
+  description: 
+  character: {fileID: 809875677}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &242595022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Character Name
+  nameText: Mother
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:

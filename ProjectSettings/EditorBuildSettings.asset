@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level 3.unity
     guid: 7128c189b5a6c89408fae58c223cd6af
   - enabled: 1
-    path: Assets/Scenes/CollectTheClothes.unity
+    path: Assets/Scenes/CollectGame.unity
     guid: 2c6345c3ba347b440897bf6d6c472d48
   - enabled: 1
     path: Assets/Scenes/typing game (BN4701).unity
