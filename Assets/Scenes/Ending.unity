@@ -2272,8 +2272,8 @@ MonoBehaviour:
   storyText: That was a tough quiz, glad I managed to finish in time. I think i only
     struggled with a few questions.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1514957337}
+  portrait: {fileID: -6906693498126326902, guid: b34ed252b3dbe4e4aa56cb4fa2ee1ebb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

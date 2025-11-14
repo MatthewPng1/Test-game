@@ -22,6 +22,10 @@ public class SimplePickup : MonoBehaviour
                 if (SimpleGameManager.instance != null && SimpleGameManager.instance.levelEnded)
                     return;
 
+                // Extra safety: ensure CoinManager is currently accepting pickups
+                if (CoinManager.Instance != null && !CoinManager.Instance.AcceptingPickups)
+                    return;
+
                 isCollected = true;  // Mark as collected immediately
                 
                 // Increment coin count on the simplified manager

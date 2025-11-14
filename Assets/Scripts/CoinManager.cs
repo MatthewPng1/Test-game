@@ -20,6 +20,14 @@ public class CoinManager : MonoBehaviour
     // Total number of collectible coins available across registered levels
     public int TotalAvailableCoins { get; private set; }
 
+    // Whether pickups are currently accepted (useful to block during transitions)
+    public bool AcceptingPickups { get; private set; } = true;
+
+    public void SetAcceptingPickups(bool accept)
+    {
+        AcceptingPickups = accept;
+    }
+
     void Awake()
     {
         // Singleton pattern
@@ -28,6 +36,7 @@ public class CoinManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             ResetCoins(); // Reset coins when game starts instead of loading saved coins
+            AcceptingPickups = true;
         }
         else
         {

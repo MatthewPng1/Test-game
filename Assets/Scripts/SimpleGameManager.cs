@@ -31,6 +31,9 @@ public class SimpleGameManager : MonoBehaviour
         levelEnded = false; // Reset level-ended flag on new level
         UpdateGUI();
         FindTotalCoins();
+        // Ensure CoinManager will accept pickups at the start of the level
+        if (CoinManager.Instance != null)
+            CoinManager.Instance.SetAcceptingPickups(true);
     }
     
   //  private bool isRestarting = false;
@@ -81,6 +84,10 @@ public class SimpleGameManager : MonoBehaviour
         // Mark the level as ended to prevent further coin pickups
         levelEnded = true;
 
+        // Stop accepting pickups immediately to avoid race conditions
+        if (CoinManager.Instance != null)
+            CoinManager.Instance.SetAcceptingPickups(false);
+
         // Simple fix: deactivate the player GameObject so they cannot move or interact
         // while the black screen / level-complete UI is showing.
         DisablePlayerGameObject();
@@ -124,6 +131,9 @@ public class SimpleGameManager : MonoBehaviour
     private IEnumerator RestartLevelCoroutine()
     {
         blackScreen.SetActive(true);
+        // Prevent pickups while restarting
+        if (CoinManager.Instance != null)
+            CoinManager.Instance.SetAcceptingPickups(false);
         yield return new WaitForSeconds(2f);
         
         // Reset CoinManager to 0 before reloading scene

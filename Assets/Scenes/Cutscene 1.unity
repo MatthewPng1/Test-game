@@ -296,7 +296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 333
+    x: 332
     y: 226
     width: 110.19
     height: 40
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -225.595, y: -77.5}
+  scrollPos: {x: 51.905, y: 26}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -386,8 +386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: After a long week, Alex decides to head home after dinner celebrating
-    bookout day with his friends.
+  storyText: After a long week of tedious trainings and intensive studying sessions,
+    Alex was heading home after a well-deserved night out.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -414,8 +414,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "In this story, you will play as Alex, a soon-to-be university undergraduate.
-    Currently, he\u2019s serving his National Service.\r\n\r\n"
+  storyText: 'In this story, you will play as Alex, a university undergraduate.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -442,8 +443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: I've never been this exhausted from training since my JC years as a
-    track-and-field athlete.
+  storyText: I've never been this exhausted before.
   description: 
   character: {fileID: 1307964170}
   portrait: {fileID: 21300000, guid: 348127b06a448d646933fb166cf95191, type: 3}
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Cat
+  nameText: Alex
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:

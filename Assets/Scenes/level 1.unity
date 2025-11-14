@@ -2044,6 +2044,7 @@ MonoBehaviour:
   endGameTitle: {fileID: 230704348}
   coinText: {fileID: 2008069920}
   levelCompleteCoins: {fileID: 1636901324}
+  levelEnded: 0
 --- !u!1 &630619361
 GameObject:
   m_ObjectHideFlags: 0
