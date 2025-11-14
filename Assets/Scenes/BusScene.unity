@@ -2325,7 +2325,7 @@ MonoBehaviour:
     from your perspective. If you meet people like that, you have to stand up for
     yourself. Uhh.. you know what I mean.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 754104666}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4599,7 +4599,7 @@ MonoBehaviour:
   storyText: 'Hey, it''s alright. you were just trying to help. Are you headed towards
     the block E2? If you don''t mind, could you push me towards LT2? '
   description: 
-  character: {fileID: 1392761608}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

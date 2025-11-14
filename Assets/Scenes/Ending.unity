@@ -1981,7 +1981,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Well\u2026 I\u2019m off to bed. Before I go\u2026."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1514957337}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2439,10 +2439,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1232919343}
-  selectedCommands:
-  - {fileID: 1232919354}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2532,7 +2530,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1232919354
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2557,7 +2555,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1232919355
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2572,7 +2570,7 @@ MonoBehaviour:
   storyText: "Thank you for stepping into my shoes. It is definitely not easy but
     I am alright. You kept going even when it felt slow. That\u2019s all I need too."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1514957337}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

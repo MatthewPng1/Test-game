@@ -19,6 +19,9 @@ public class GameController : MonoBehaviour
     public TMP_Text endMessage;
     public Button tryAgainButton;
 
+    [Header("Audio")]
+    public AudioSource musicAudioSource;  // Assign the music AudioSource to stop on win
+
     float timeLeft;
     int collected;
     bool ended;
@@ -99,6 +102,12 @@ public class GameController : MonoBehaviour
         
         ended = true;
         Time.timeScale = 0f; // Stop gameplay and timer
+
+        // Stop music if player wins
+        if (win && musicAudioSource != null)
+        {
+            musicAudioSource.Stop();
+        }
 
         if (endPanel) 
         {

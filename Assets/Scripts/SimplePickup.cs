@@ -8,6 +8,7 @@ public class SimplePickup : MonoBehaviour
     public int value = 1;
     public pickupType pt;
     [SerializeField] GameObject PickupEffect;
+    [SerializeField] AudioSource pickupAudioSource;  // Assign the audio source with pickup sound
 
     private bool isCollected = false;
     
@@ -26,6 +27,10 @@ public class SimplePickup : MonoBehaviour
                 }
                 if (PickupEffect != null)
                     Instantiate(PickupEffect, transform.position, Quaternion.identity);
+
+                // Play pickup sound
+                if (pickupAudioSource != null)
+                    pickupAudioSource.PlayOneShot(pickupAudioSource.clip);
 
                 // Disable the collider immediately to prevent double triggers
                 GetComponent<Collider2D>().enabled = false;

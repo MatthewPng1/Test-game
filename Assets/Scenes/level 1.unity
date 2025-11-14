@@ -214,6 +214,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &34096629
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -917,6 +918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 236575864}
+  - component: {fileID: 236575865}
   m_Layer: 0
   m_Name: Dollars
   m_TagString: Untagged
@@ -946,6 +948,103 @@ Transform:
   - {fileID: 34096626}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &236575865
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236575863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 9217f9fb9c9914260b4ccb50d76d9fc9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &288905974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,6 +2272,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &664648866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2354,6 +2454,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &696587717
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6787,6 +6888,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &1550716097
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8391,6 +8493,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &1657095773
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9819,6 +9922,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &1985500620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10207,6 +10311,7 @@ MonoBehaviour:
   value: 1
   pt: 0
   PickupEffect: {fileID: 5746382810402386754, guid: ce32754ecbaea3342842e4a46df1e61a, type: 3}
+  pickupAudioSource: {fileID: 236575865}
 --- !u!212 &2046388929
 SpriteRenderer:
   m_ObjectHideFlags: 0
