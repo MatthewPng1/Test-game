@@ -570,10 +570,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 223296899}
-  selectedCommands:
-  - {fileID: 223296950}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1060,7 +1058,7 @@ MonoBehaviour:
     way through. Or mabye I can just squeeze through?
   description: 
   character: {fileID: 809875677}
-  portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1150,7 +1148,7 @@ MonoBehaviour:
   storyText: Going the normal route's gonna be tough with my reduced mobility.
   description: 
   character: {fileID: 809875677}
-  portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1274,7 +1272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: Alex uses usual route through his neighbourhood, avoiding any stairs
+  storyText: Alex uses the usual route through his neighbourhood, avoiding any stairs
     or steep ramps. He thinks to himself how it takes 5 minutes longer to get to
     his bus stop than it used to.
   description: 
@@ -1442,7 +1440,7 @@ MonoBehaviour:
   storyText: He thinks to himself how it takes 5 minutes longer to get to his bus
     stop than it used to, since he has to avoid any stairs or steep ramps
   description: 
-  character: {fileID: 809875677}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

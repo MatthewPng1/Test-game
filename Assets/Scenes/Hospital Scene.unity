@@ -1757,7 +1757,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You don't remember?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 467113587}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1981,7 +1981,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1314992307}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1314992301}
   variables: []
   description: 
   stepPause: 0

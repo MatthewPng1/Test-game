@@ -18,6 +18,10 @@ public class SimplePickup : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Stick"))
             {
+                // Extra safety: ensure SimpleGameManager hasn't marked level as ended
+                if (SimpleGameManager.instance != null && SimpleGameManager.instance.levelEnded)
+                    return;
+
                 isCollected = true;  // Mark as collected immediately
                 
                 // Increment coin count on the simplified manager

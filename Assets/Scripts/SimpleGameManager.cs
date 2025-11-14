@@ -16,6 +16,7 @@ public class SimpleGameManager : MonoBehaviour
     private int coinCount = 0;
     private int totalCoins = 0;
     private int savedCoinCount = 0;
+    public bool levelEnded = false;
 
     private void Awake()
     {
@@ -27,6 +28,7 @@ public class SimpleGameManager : MonoBehaviour
     {
         SimpleUIManager.instance.fadeFromBlack = true;
         savedCoinCount = 0; // Reset saved count at level start
+        levelEnded = false; // Reset level-ended flag on new level
         UpdateGUI();
         FindTotalCoins();
     }
@@ -41,6 +43,9 @@ public class SimpleGameManager : MonoBehaviour
 
     public void IncrementCoinCount()
     {
+        // Prevent coin pickups after level has ended
+        if (levelEnded) return;
+
         coinCount++;
         if (CoinManager.Instance != null)
         {
@@ -73,6 +78,9 @@ public class SimpleGameManager : MonoBehaviour
 
     public void LevelComplete()
     {
+        // Mark the level as ended to prevent further coin pickups
+        levelEnded = true;
+
         // Simple fix: deactivate the player GameObject so they cannot move or interact
         // while the black screen / level-complete UI is showing.
         DisablePlayerGameObject();

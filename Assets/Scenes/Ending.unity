@@ -1979,7 +1979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 296
   indentLevel: 0
-  storyText: "Well\u2026 I\u2019m off to bed. Before I go\u2026."
+  storyText: "Well\u2026 I\u2019m off to bed. Before I go\u2026"
   description: 
   character: {fileID: 1514957337}
   portrait: {fileID: 0}
@@ -2567,8 +2567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 311
   indentLevel: 0
-  storyText: "Thank you for stepping into my shoes. It is definitely not easy but
-    I am alright. You kept going even when it felt slow. That\u2019s all I need too."
+  storyText: "Thank you for stepping into my shoes. It was definitely not easy but
+    I'm alright. You kept going even when it felt slow. That\u2019s all I need too."
   description: 
   character: {fileID: 1514957337}
   portrait: {fileID: 0}

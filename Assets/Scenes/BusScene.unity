@@ -2822,7 +2822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2101.234
+    x: 2099.9182
     y: 153.26314
     width: 108.92
     height: 40
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I made it to the interchange, way earlier than I expected.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3463,7 +3463,7 @@ MonoBehaviour:
   storyText: If something had happened to me, I can't call out for help though. I
     better be more careful next time.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3743,7 +3743,7 @@ MonoBehaviour:
   storyText: Finally, I'm at the interchange. The bus I was supposed to take just
     arrived. Maybe I should have taken the bus instead.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3768,7 +3768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2301.3862
+    x: 2302.702
     y: 94.63241
     width: 117.63
     height: 40
@@ -3862,7 +3862,7 @@ MonoBehaviour:
   storyText: 'Inconveniences like this are kind of expected. Should I take the metal
     walkway or find another route? '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3917,7 +3917,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Maybe it''s time I considered getting a motorised wheelchair. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3945,7 +3945,7 @@ MonoBehaviour:
   storyText: 'Wah...it''s so hot today. Days like this I would hold an umbrella and
     a fan. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 666579161}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4543,7 +4543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1857.4979, y: 230.8956}
+  scrollPos: {x: -1483.8132, y: 229.57973}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 392
@@ -4554,8 +4554,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 593378189}
+  selectedCommands:
+  - {fileID: 593378103}
   variables: []
   description: 
   stepPause: 0
